@@ -10,5 +10,7 @@ func main() {
 	fmt.Printf("Hello, world PI - 44.\n")
 
 	util.Hello_util()
+
+	fmt.Printf(util.ToUpperCase("This should be upper-case\n"))
 }
 
