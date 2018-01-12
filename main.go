@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/dannil/hello/util"
+	)
 
 func main() {
-	fmt.Printf("Hello, world222222.\n")
+	fmt.Printf("Hello, world PI - 44.\n")
+
+	util.Hello_util()
 }
 

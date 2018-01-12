@@ -1,5 +1,5 @@
 package util
 
-func hello() {
+func Hello_util() {
 
 }
