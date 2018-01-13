@@ -13,7 +13,13 @@ func main() {
 	util.Hello_util()
 	fmt.Printf(util.ToUpperCase("This should be upper-case\n"))
 
-	d := classes.Dog{Name: "Shredder", Age: 10}
+	d := &classes.Dog{Name: "Shredder", Age: 10}
 	d.Bark()
+	d.Rename("Bob")
+	d.Info()
+
+	fmt.Println(d.DogYears())
+
+	fmt.Println(d.ToString())
 }
 
